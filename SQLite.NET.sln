@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39A3B743-1EBD-4CC0-8E37-ACE3DD38B1C0}"
 	ProjectSection(SolutionItems) = preProject
 		readme.htm = readme.htm
@@ -13,12 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", 
 		{10B51CE8-A838-44DE-BD82-B658F0296F80} = {10B51CE8-A838-44DE-BD82-B658F0296F80}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite.Interop", "SQLite.Interop\SQLite.Interop.vcproj", "{10B51CE8-A838-44DE-BD82-B658F0296F80}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AC139951-261A-4463-B6FA-AEBC25283A66} = {AC139951-261A-4463-B6FA-AEBC25283A66}
-		{AC139952-261A-4463-B6FA-AEBC25283A66} = {AC139952-261A-4463-B6FA-AEBC25283A66}
-		{AC139952-261A-4463-B6FA-AEBC25284A66} = {AC139952-261A-4463-B6FA-AEBC25284A66}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite.Interop", "SQLite.Interop\SQLite.Interop.vcxproj", "{10B51CE8-A838-44DE-BD82-B658F0296F80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testce", "testce\testce.csproj", "{B86CE504-C4E4-496F-A0F0-E613BCFD3DF7}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -83,8 +80,8 @@ Global
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|Itanium.ActiveCfg = Debug|Itanium
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|Itanium.Build.0 = Debug|Itanium
-		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|Win32.ActiveCfg = Debug|Any CPU
-		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|Win32.Build.0 = Debug|Any CPU
+		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|Win32.ActiveCfg = Debug|x86
+		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|Win32.Build.0 = Debug|x86
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|x64.ActiveCfg = Debug|x64
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug - Stock|x64.Build.0 = Debug|x64
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Debug|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
@@ -108,37 +105,26 @@ Global
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Release|Win32.Build.0 = Release|x86
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Release|x64.ActiveCfg = Release|x64
 		{E27B1B1E-19C0-45E8-AA74-B6E1C041A130}.Release|x64.Build.0 = Release|x64
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Compact Framework (ARMV4).ActiveCfg = StockDebug|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Compact Framework (ARMV4).Build.0 = StockDebug|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Compact Framework (ARMV4).Deploy.0 = StockDebug|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Itanium.ActiveCfg = Debug|Itanium
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Itanium.Deploy.0 = Debug|Itanium
+		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Compact Framework (ARMV4).ActiveCfg = Debug|Win32
+		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Itanium.ActiveCfg = Debug|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Win32.ActiveCfg = StockDebug|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|Win32.Deploy.0 = StockDebug|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|x64.ActiveCfg = Debug|x64
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug - Stock|x64.Deploy.0 = Debug|x64
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Compact Framework (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Compact Framework (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Compact Framework (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Itanium.ActiveCfg = Debug|Itanium
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Itanium.Build.0 = Debug|Itanium
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Itanium.Deploy.0 = Debug|Itanium
+		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Compact Framework (ARMV4).ActiveCfg = Debug|Win32
+		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Itanium.ActiveCfg = Debug|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Win32.ActiveCfg = Debug|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Win32.Build.0 = Debug|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|Win32.Deploy.0 = Debug|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|x64.ActiveCfg = Debug|x64
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|x64.Build.0 = Debug|x64
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Debug|x64.Deploy.0 = Debug|x64
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release - Stock|Compact Framework (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release - Stock|Compact Framework (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release - Stock|Compact Framework (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release - Stock|Itanium.ActiveCfg = Release|Itanium
+		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release - Stock|Compact Framework (ARMV4).ActiveCfg = Release|Win32
+		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release - Stock|Itanium.ActiveCfg = Release|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release - Stock|Win32.ActiveCfg = Release|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release - Stock|x64.ActiveCfg = Release|x64
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|Compact Framework (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|Compact Framework (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|Itanium.ActiveCfg = Release|Itanium
-		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|Itanium.Build.0 = Release|Itanium
+		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|Compact Framework (ARMV4).ActiveCfg = Release|Win32
+		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|Itanium.ActiveCfg = Release|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|Win32.ActiveCfg = Release|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|Win32.Build.0 = Release|Win32
 		{10B51CE8-A838-44DE-BD82-B658F0296F80}.Release|x64.ActiveCfg = Release|x64
@@ -170,15 +156,15 @@ Global
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|Itanium.ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|Itanium.Build.0 = Debug|Any CPU
-		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|Win32.ActiveCfg = StockDebug|Any CPU
-		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|Win32.Build.0 = StockDebug|Any CPU
+		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|Win32.ActiveCfg = StockDebug|x86
+		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|Win32.Build.0 = StockDebug|x86
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|x64.ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug - Stock|x64.Build.0 = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|Itanium.ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|Itanium.Build.0 = Debug|Any CPU
-		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|Win32.Build.0 = Debug|Any CPU
+		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|Win32.ActiveCfg = Debug|x86
+		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|Win32.Build.0 = Debug|x86
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Debug|x64.Build.0 = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25283A66}.Release - Stock|Compact Framework (ARMV4).ActiveCfg = Release|Any CPU
@@ -195,15 +181,15 @@ Global
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|Itanium.ActiveCfg = Debug|Any CPU
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|Itanium.Build.0 = Debug|Any CPU
-		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|Win32.ActiveCfg = Debug|Any CPU
-		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|Win32.Build.0 = Debug|Any CPU
+		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|Win32.ActiveCfg = Debug|x86
+		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|Win32.Build.0 = Debug|x86
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|x64.ActiveCfg = Debug|Any CPU
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug - Stock|x64.Build.0 = Debug|Any CPU
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|Itanium.ActiveCfg = Debug|Any CPU
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|Itanium.Build.0 = Debug|Any CPU
-		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|Win32.Build.0 = Debug|Any CPU
+		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|Win32.ActiveCfg = Debug|x86
+		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|Win32.Build.0 = Debug|x86
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Debug|x64.Build.0 = Debug|Any CPU
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Release - Stock|Compact Framework (ARMV4).ActiveCfg = Release|Any CPU
@@ -222,11 +208,11 @@ Global
 		{E6BF9F74-58E2-413B-A7CE-EA653ECB728D}.Release|x64.Build.0 = Release|Any CPU
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug - Stock|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug - Stock|Itanium.ActiveCfg = Debug|Any CPU
-		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug - Stock|Win32.ActiveCfg = Debug|Any CPU
+		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug - Stock|Win32.ActiveCfg = Debug|x86
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug - Stock|x64.ActiveCfg = Debug|Any CPU
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug|Itanium.ActiveCfg = Debug|Any CPU
-		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug|Win32.ActiveCfg = Debug|x86
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Release - Stock|Compact Framework (ARMV4).ActiveCfg = Release|Any CPU
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Release - Stock|Itanium.ActiveCfg = Release|Any CPU
@@ -238,11 +224,11 @@ Global
 		{9D3CF7A6-092A-4B05-B0E4-BEF6944525B3}.Release|x64.ActiveCfg = Release|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug - Stock|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug - Stock|Itanium.ActiveCfg = Debug|Any CPU
-		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug - Stock|Win32.ActiveCfg = Debug|Any CPU
+		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug - Stock|Win32.ActiveCfg = Debug|x86
 		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug - Stock|x64.ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug|Compact Framework (ARMV4).ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug|Itanium.ActiveCfg = Debug|Any CPU
-		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug|Win32.ActiveCfg = Debug|x86
 		{AC139952-261A-4463-B6FA-AEBC25284A66}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25284A66}.Release - Stock|Compact Framework (ARMV4).ActiveCfg = Release|Any CPU
 		{AC139952-261A-4463-B6FA-AEBC25284A66}.Release - Stock|Itanium.ActiveCfg = Release|Any CPU
